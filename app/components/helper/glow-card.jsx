@@ -1,4 +1,4 @@
-sconst GlowCard = ({ children, identifier }) => {
+const GlowCard = ({ children, identifier }) => {
   useEffect(() => {
     const CONTAINER = document.querySelector(`.glow-container-${identifier}`);
     const CARDS = document.querySelectorAll(`.glow-card-${identifier}`);
